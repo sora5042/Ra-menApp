@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Eca-9w-ssj">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Title View Controller-->
+        <scene sceneID="1PL-fz-JYr">
+            <objects>
+                <viewController storyboardIdentifier="TitleViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Eca-9w-ssj" customClass="TitleViewController" customModule="Ra_menApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XFZ-ky-OBm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.070000000000000007" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="SWY-ZP-aqs">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="srS-kD-ULD">
+                                <rect key="frame" x="30" y="300" width="315" height="250"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="50z-M3-Ygp">
+                                        <rect key="frame" x="0.0" y="0.0" width="315" height="95"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="アカウントをお持ちの方はこちら" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rj0-Bn-b0D">
+                                                <rect key="frame" x="0.0" y="0.0" width="315" height="47.666666666666664"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="czE-jf-jth">
+                                                <rect key="frame" x="0.0" y="47.666666666666686" width="315" height="47.333333333333343"/>
+                                                <color key="backgroundColor" red="0.33798045259999998" green="0.66131427409999999" blue="0.86721293129999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                <state key="normal" title="ログイン">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="vx1-To-fz1">
+                                        <rect key="frame" x="0.0" y="155" width="315" height="95"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="まだアカウントをお持ちでない方はこちら" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kcl-qF-E6D">
+                                                <rect key="frame" x="0.0" y="0.0" width="315" height="47.666666666666664"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fKu-cS-zzo">
+                                                <rect key="frame" x="0.0" y="47.666666666666686" width="315" height="47.333333333333343"/>
+                                                <color key="backgroundColor" red="0.35863840279999998" green="0.78651097400000003" blue="0.27456653809999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                <state key="normal" title="新規登録">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="d2N-wI-r14"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ラーメン好きのための SNSアプリ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZRw-JK-mcm">
+                                <rect key="frame" x="0.0" y="89" width="375" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="8ef-WX-b5o"/>
+                                    <constraint firstAttribute="height" constant="40" id="IfV-ST-qbZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ラーム" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TxS-1w-TM0">
+                                <rect key="frame" x="110.66666666666667" y="169" width="153.66666666666663" height="61"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="51"/>
+                                <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="HaJ-97-aZi"/>
+                        <color key="backgroundColor" red="1" green="0.7853356037" blue="0.2359793546" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ZRw-JK-mcm" firstAttribute="top" secondItem="HaJ-97-aZi" secondAttribute="top" constant="45" id="Byd-Q8-Q68"/>
+                            <constraint firstItem="srS-kD-ULD" firstAttribute="centerX" secondItem="ZRw-JK-mcm" secondAttribute="centerX" id="enI-S8-PIP"/>
+                            <constraint firstItem="ZRw-JK-mcm" firstAttribute="trailing" secondItem="HaJ-97-aZi" secondAttribute="trailing" id="iIW-NB-mIB"/>
+                            <constraint firstItem="srS-kD-ULD" firstAttribute="leading" secondItem="HaJ-97-aZi" secondAttribute="leading" constant="30" id="ltF-Xl-E8F"/>
+                            <constraint firstItem="TxS-1w-TM0" firstAttribute="top" secondItem="ZRw-JK-mcm" secondAttribute="bottom" constant="40" id="m96-Vj-ENr"/>
+                            <constraint firstItem="ZRw-JK-mcm" firstAttribute="leading" secondItem="HaJ-97-aZi" secondAttribute="leading" id="n4S-1k-074"/>
+                            <constraint firstItem="HaJ-97-aZi" firstAttribute="trailing" secondItem="srS-kD-ULD" secondAttribute="trailing" constant="30" id="nUM-WI-lFu"/>
+                            <constraint firstItem="TxS-1w-TM0" firstAttribute="centerX" secondItem="XFZ-ky-OBm" secondAttribute="centerX" id="sLW-ZD-ulG"/>
+                            <constraint firstItem="srS-kD-ULD" firstAttribute="top" secondItem="XFZ-ky-OBm" secondAttribute="top" constant="300" id="siY-PI-lDY"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="OOi-R5-aTM"/>
+                    <connections>
+                        <outlet property="loginButton" destination="czE-jf-jth" id="qZu-Ej-Kru"/>
+                        <outlet property="registerButton" destination="fKu-cS-zzo" id="ncq-QC-2U6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mbN-U5-hHY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2218.4000000000001" y="166.99507389162562"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="2" width="225" height="225"/>
+    </resources>
+</document>

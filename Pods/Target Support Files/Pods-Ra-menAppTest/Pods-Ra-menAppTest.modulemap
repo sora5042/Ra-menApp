@@ -1,0 +1,6 @@
+framework module Pods_Ra_menAppTest {
+  umbrella header "Pods-Ra-menAppTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
