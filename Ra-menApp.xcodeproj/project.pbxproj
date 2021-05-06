@@ -786,6 +786,7 @@
 				DEVELOPMENT_TEAM = L6Q4H7M3DB;
 				DISPLAY_NAME = "Ra-menApp";
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -807,6 +808,7 @@
 				DEVELOPMENT_TEAM = L6Q4H7M3DB;
 				DISPLAY_NAME = "Ra-menApp";
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

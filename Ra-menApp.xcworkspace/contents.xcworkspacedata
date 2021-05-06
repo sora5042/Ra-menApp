@@ -5,6 +5,9 @@
       location = "group:Ra-menApp.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:&#x7c21;&#x6613;&#x4ed5;&#x69d8;&#x66f8;.pdf">
+   </FileRef>
+   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
